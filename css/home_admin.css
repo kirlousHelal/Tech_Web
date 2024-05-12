@@ -1,0 +1,384 @@
+*
+{
+    margin: 0px;
+}
+/*starting body*/
+body
+{
+    background-color: var(--color);
+    height: auto;
+}
+
+/*container*/
+.container
+{
+    width:1170px;
+    margin:auto;
+}
+
+a
+{
+    text-decoration: none;
+    color:black;
+}
+ul { list-style: none; }
+
+.navbar
+{
+    
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0 var(--color), 0 6px 20px 0 var(--color);
+}
+
+
+
+.header .navbar
+{
+    
+    overflow: hidden;
+
+}
+
+.header .navbar .logo
+{
+    padding:12px 0;
+    float: left;
+    font-family: sukar black;
+    font-size:25px;
+}
+.header .navbar .logo .war { color:#f6b133; }
+
+.header  .first-list { padding-left: 20px;}
+.header  .first-list ul { float:left; }
+.header  .second-list { float:right; }
+
+.header  .first-list ul li
+
+{
+    padding :20px 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+    float:left;
+}
+.header  .second-list ul li
+{
+    padding :20px 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    float:left;
+}
+
+.header .navbar .adminUserName 
+{
+    float:right;
+    padding-top: 18px;
+    padding-right: 30px;
+    padding-left: 30px; 
+    border-left: 2px solid black;
+}
+
+.header .navbar .adminUserName p
+{
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'SamsungSharpSans', 'SamsungOneArabic', tahoma !important;
+
+}
+
+.header .first-list ul li a { padding:10px 15px; }.header .second-list ul li a { padding:10px 15px; }
+.header .first-list ul li a:hover , .header .second-list ul li a:hover
+{
+    background: #f6b133;
+    border-radius: 80px;
+    color:white;
+}
+
+
+
+
+
+
+.navbar .alwan
+{
+    
+    float:right;
+    line-height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #4b6584;
+    padding:15px;
+    
+}
+.navbar .alwan:hover
+{
+    color: #fff;
+    transition: 0.4s;
+}
+.navbar .alwan:hover ul
+{
+    display: block;
+}
+.ualwan
+{
+    background: var(--color);
+    width: 90px;
+    position: relative;
+    right: 65px;
+    top: 10px;
+    border-radius: 0 0 10px 10px;
+    display: none;
+}
+.colors
+{
+    line-height: 15px;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+#blue
+{
+    background: #45aaf2;
+}
+#red
+{
+    background: #fc5c65;
+}
+#green
+{
+    background: #20bf6b;
+}
+#yellow
+{
+    background-color: #FFEB3B;
+}
+#purple
+{
+    background-color: #8854d0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*end nav*/
+/*start slider*/
+
+.header .slider
+{
+    background-image:url("../images/smartwatch3.jpg");
+    -webkit-background-size: cover;/*css3*/
+    -moz-background-size: cover;/*css3*/
+    -o-background-size: cover;/*css3*/
+    background-size: cover;/*css3*/ 
+    height: 900px; 
+
+}
+
+
+.header .slider .intro 
+{
+    height: 100%;
+    text-align: center;
+    padding-top: 200px;
+    color:white;
+}
+
+.header .slider .intro h2
+{ 
+     margin:0 auto;
+     border-top: 4px solid white;
+     border-bottom: 4px solid white ;
+     width:600px;
+     font-size: 50px;
+     padding: 5px 0;
+     text-transform:capitalize;
+
+}
+
+.header .slider .intro span
+{
+    color:#f6b133;
+}
+
+
+/*end slider*/
+
+
+
+/*end header*/
+
+/*start discovery*/
+.discovery
+{
+    padding-top:80px;
+    background:white;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.discovery h2
+{
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #f4a124 ;
+}
+
+.discovery .container div
+{
+    padding-top: 20px;
+    width:33.33333%;
+    float:left;
+}
+
+.discovery .container div img
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+
+/*end discovery*/
+
+
+/*start new*/
+
+.new
+{
+    padding-top:80px;
+    padding-bottom:50px;
+    overflow: hidden;
+    height:700px;
+    background: white;
+    text-align: center;
+}
+
+.new .container h2
+{
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #f4a124 ;
+}
+
+.new .container .part1,
+.new .container .part2,
+.new .container .part3
+{
+    width:33.33333%;
+    float: left;
+    padding-top: 20px;
+}
+
+
+.new .container .part1 div,
+.new .container .part3 div
+{
+    padding-bottom: 20px;
+}
+.new .container div img
+{
+
+    border-radius: 20px;
+}
+
+
+
+/*end new */
+
+
+
+
+
+
+
+
+/* Start Before footer الحتة اللى قبل الفوتر*/
+.part
+{overflow: hidden;}
+.part section:first-of-type
+{
+    padding:0;margin:0;
+    border:1px solid #CCC;
+    border-left: none;
+    float:left;
+    padding-left: 25px;
+}
+.part section:last-of-type
+{
+    padding:0;margin:0;
+    width:30%;
+    border:1px solid #CCC;
+    border-right:none;
+    float:left;
+    padding-left: 25px;
+    min-height: 240px;
+}
+.part section
+{
+    padding:0;margin:0;
+    width:30%;
+    border:1px solid #CCC;
+    float:left;
+    padding-left: 25px;
+    min-height: 240px;
+}
+.part section h2 {font-weight: normal;}
+.part ul 
+{
+    margin: 0;
+    padding: 0;
+}
+.part ul li
+{
+    padding:10px;
+    text-transform: capitalize;
+}
+/* End Before footer الحتة اللى قبل الفوتر*/
+
+
+
+
+
+
+
+
+/* Start Footer */
+footer
+{
+    color:#757575;
+    font-size: 14px;
+    padding:20px 0;
+    overflow: hidden;
+}
+footer p { float:left; }
+footer ul { float:right; }
+footer ul li
+{
+    float:left;
+    text-decoration: none;
+    color:#000;
+    padding:0px 10px;
+}
+footer ul li i
+{
+    color:#000;
+    font-size: 20px;
+}
+/* End Footer */
